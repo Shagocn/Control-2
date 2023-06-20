@@ -50,3 +50,9 @@ td {
 .centro {
     text-align: center;
 }
+
+.error {
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+  }
