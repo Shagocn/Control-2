@@ -21,6 +21,13 @@ $(document).ready(function() {
                 "password2": {
                     "required": true,
                     "equalTo": "#password"
+                },
+                "rut": {
+                    "required": true,
+                    "minlength": 9
+                },
+                "texto": {
+                    "required": true
                 }
             },
             "messages": {
@@ -35,6 +42,13 @@ $(document).ready(function() {
                 "password2": {
                     "required": "La contraseña es un campo obligatorio.",
                     "equalTo": "La contraseña no coincide."
+                },
+                "rut": {
+                    "required": "El rut es un campo obligatorio.",
+                    "minlength": "El rut debe tener por lo menos 9 carácteres."
+                },
+                "texto": {
+                    "required": "Este campo es obligatorio."
                 }
             }
         });

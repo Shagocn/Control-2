@@ -26,18 +26,42 @@
                 <!-- datos del cliente -->
                 <div class="col-sm-12 col-md-6" id="datos">
                   <form method="POST" id="formulario1" action="recibir_datos">
-                    <div class="mb-3">
-                      <label for="rut" class="form-label">RUT</label>
-                      <input type="text" required placeholder="Ej: 12345678-K" maxlength="30" class="form-control" id="rut" aria-describedby="emailHelp">
+                    <div class="form-group">
+                      <br>
+                      <label for="rut">Rut</label>
+                      <input
+                        type="text"
+                        id="rut"
+                        name="rut"
+                        class="form-control"
+                        placeholder="Ej: 12345678-K"
+                        value=""
+                      />
                     </div>
                     <div class="invalid_feedback"></div>
-                    <div class="mb-3">
-                      <label for="nombres" class="form-label">Nombres</label>
-                      <input type="text" maxlength="30" class="form-control" id="nombres">
+                    <div class="form-group">
+                      <br>
+                      <label for="texto">Nombre</label>
+                      <input
+                        type="text"
+                        id="texto"
+                        name="texto"
+                        class="form-control"
+                        placeholder=""
+                        value=""
+                      />
                     </div>
-                    <div class="mb-3">
-                      <label for="apellidos" class="form-label">Apellidos</label>
-                      <input type="text" maxlength="30" class="form-control" id="apellidos">
+                    <div class="form-group">
+                      <br>
+                      <label for="texto">Apellidos</label>
+                      <input
+                        type="text"
+                        id="texto"
+                        name="texto"
+                        class="form-control"
+                        placeholder=""
+                        value=""
+                      />
                     </div>
                     <div class="form-group">
                       <br>
@@ -48,7 +72,7 @@
                         name="email"
                         class="form-control"
                         placeholder="Ingrese su email aquí"
-                        value="cgomezvega@gmail.com"
+                        value="correo@gmail.com"
                       />
                     </div>
                     <div class="mb-3">
@@ -60,13 +84,29 @@
                       <label class="form-check-label" for="exampleCheck1">Recibir correos con descuentos</label>
                       <div id="formchHelp" class="form-text">Deseo subscribirme a correos automáticos, así recibir descuentos para compras en la tienda.</div>
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div class="form-group">
+                      <br>
+                      <label for="password">Password</label>
+                      <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="form-control"
+                        placeholder="Ingresar contraseña del al menos 5 caracteres"
+                        value=""
+                      />
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div class="form-group">
+                      <br>
+                      <label for="password2">Repetir Contraseña</label>
+                      <input
+                        type="password"
+                        id="password2"
+                        name="password2"
+                        class="form-control"
+                        placeholder="Repetir contraseña digitada anteriormente"
+                        value=""
+                      />
                     </div>
                   </form>
                     
