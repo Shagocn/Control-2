@@ -28,6 +28,16 @@ $(document).ready(function() {
                 },
                 "texto": {
                     "required": true
+                },
+                "mango": {
+                    "required": true,
+                    "minlength": 3
+                },
+                "nombre": {
+                    "required": true
+                },
+                "apellido": {
+                    "required": true
                 }
             },
             "messages": {
@@ -49,6 +59,16 @@ $(document).ready(function() {
                 },
                 "texto": {
                     "required": "Este campo es obligatorio."
+                },
+                "mango": {
+                    "required": "La ID es un campo obligatorio.",
+                    "minlength": "Ingrese una ID válida."
+                },
+                "nombre": {
+                    "required": "El nombre es un campo obligatorio."
+                },
+                "apellido": {
+                    "required": "El apellido es un campo obligatorio."
                 }
             }
         });
